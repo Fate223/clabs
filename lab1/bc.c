@@ -1,6 +1,7 @@
 #include <stdio.h>
-main()
+int main()
 {
+    printf ("TENPTURE\n");
     int celsius, fahr;
     int lower, upper, step;
 
