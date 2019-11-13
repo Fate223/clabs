@@ -1,23 +1,16 @@
 #include<stdio.h>
-#include<stdlib.h>
-int main()
+int bitcount
+main()
 {
-    int num = 0;
-    printf("Enter an integer");
-    scanf("%d",&num);
-    printf("%d has %d 1 in the Binary sequence\n", num,bitcount(num));
-    system("pause");
-    return 0;
+    unsigned int a=0;
+    unsigned int max =~a;
+    printf("max number;%u\n',max");
 }
-int bitcount(int num)
+int bitcount(unsigned x)
 {
-    int t=0;
-    int i=0;
-    for(i=0;i<32;i++)
+    while (x !=0)
     {
-        if((num&1)==1)
-        t++;
-        num =(num>>1);
+        x>>=1;
+        printf("max bit of unsigned int %u\n",bitcount)
     }
-    return t;
 }
