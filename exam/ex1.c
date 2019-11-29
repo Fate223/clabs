@@ -5,7 +5,7 @@ main()
     int x,b,c;
     b=c=0;
     x = getchar();
-    while (x="a"&&"A"){
+    while (x=="a"||x=="A"){
         b++;
     }
     while (x=0){
@@ -13,4 +13,5 @@ main()
     }
     printf("the number of a is :%u\n",b);
     printf("the number of 0 is :%u\n",c);
+    return 0;
 }
